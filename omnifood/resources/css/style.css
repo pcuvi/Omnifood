@@ -60,6 +60,7 @@ h1 {
 	font-size: 240%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
+    min-width: 1140px;
 }
 
 h2 {
@@ -208,4 +209,18 @@ header {
 .main-nav a:hover,
 .main-nav a:active {
 	border-bottom: 2px solid #e67e22;
+}
+/*-------------------------------------*/
+
+
+/*MEALS*/
+
+
+/*-------------------------------------*/
+.meals-showcase{
+    list-style: none;
+    width:100%;
+}
+.meals-showcase li{
+    display: block;
 }

@@ -54,7 +54,7 @@ h3 {
 }
 
 h1 {
-	margin-top: 0;
+	margin: 0;
 	margin-bottom: 20px;
 	color: #fff;
 	font-size: 240%;
@@ -171,12 +171,12 @@ header {
 
 .hero-text-box {
 	position: absolute;
-	width: 1140px;
+	width: 100%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+    /*Take the two top out */
 }
-
 .logo {
 	height: 100px;
 	width: auto;
@@ -228,11 +228,12 @@ header {
 }
 .meal-photo {
     width: 100%;
-    margin:auto;
+    margin:0;
 
 
 }
 .meal-photo img{
-    width: 25%;
+    width: 100%;
+    height: auto;
     float: left;
 }

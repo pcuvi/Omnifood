@@ -54,12 +54,13 @@ h3 {
 }
 
 h1 {
-	margin-top: 0;
+	margin: 0;
 	margin-bottom: 20px;
 	color: #fff;
 	font-size: 240%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
+    min-width: 1140px;
 }
 
 h2 {
@@ -170,12 +171,12 @@ header {
 
 .hero-text-box {
 	position: absolute;
-	width: 1140px;
+	width: 100%;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+    /*Take the two top out */
 }
-
 .logo {
 	height: 100px;
 	width: auto;
@@ -208,4 +209,31 @@ header {
 .main-nav a:hover,
 .main-nav a:active {
 	border-bottom: 2px solid #e67e22;
+}
+/*-------------------------------------*/
+
+
+/*MEALS*/
+
+
+/*-------------------------------------*/
+.meals-showcase{
+    list-style: none;
+    width:100%;
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meal-photo {
+    width: 100%;
+    margin:0;
+
+
+}
+.meal-photo img{
+    width: 100%;
+    height: auto;
+    float: left;
 }

@@ -140,7 +140,7 @@ a:active{
 /*-----------BUTTONS-------------*/
 
 .btn:link,
-.btn:visited {y
+.btn:visited {
 	display: inline-block;
 	padding: 10px 30px;
 	font-weight: 300;
@@ -192,6 +192,7 @@ header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
 	background-size: cover;
 	background-position: center;
+    background-attachment: fixed;
 	height: 100vh;
 }
 
@@ -353,3 +354,19 @@ header {
     width: 100%;
     display: block;
 }
+
+/*-------------------------------------*/
+
+
+/*TESTIMONIALS*/
+
+
+/*-------------------------------------*/
+
+.section-testimonials{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+	background-size: cover;
+	background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    }
